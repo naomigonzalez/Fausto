@@ -1,0 +1,17 @@
+1. guardar una lista de alumnos txt 
+2. dos grupos: A y B 
+	si el primer nombre del alumno empieza con 
+	a - n en el grupo A 
+	sino en el grupo B
+3. guardar nombre y edad 
+	si el alumno es menor a 18 años, que diga "el 
+	alumno es menor de edad" y en caso contrario 
+	"el alumno es mayor de edad" 
+4. listar los alumnos del grupo 
+5. no debe terminar hasta que escribamos "finalizar" 
+
+
+a este programa hay que agregarle un buscador (3. ¿qué 
+quieres buscar?)
+buscar por nombre, edad, menores y mayores de edad 
+comentar linea por linea que hace.

@@ -1,0 +1,7 @@
+bere, 65, El alumno es mayor de edad 
+bere, 65, El alumno es mayor de edad 
+bere, 65, El alumno es mayor de edad 
+bere, 65, El alumno es mayor de edad 
+Fausto, 85, El alumno es mayor de edad 
+alberto, 74, El alumno es mayor de edad 
+bere, 65, El alumno es mayor de edad 

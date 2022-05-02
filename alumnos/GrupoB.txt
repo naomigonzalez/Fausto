@@ -1,0 +1,5 @@
+quetzalli, 2, El alumno es menor de edad 
+walter, 45, El alumno es mayor de edad 
+santiago, 36, El alumno es mayor de edad 
+oscar, 10, El alumno es menor de edad 
+talia, 52, El alumno es mayor de edad 
