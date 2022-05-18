@@ -1,0 +1,16 @@
+1. hacer una función que reciba 3 números (que pida
+por consola) de esos tres números cuál es el 
+más grande 
+2. hacer una función que reciba 3 números (que pida
+por consola) de esos tres números cuál es el mínimo 
+3. pida una frase y diga cuántas vocales tiene 
+4. un programa que pida un caracter y despues pida
+un número y hacer una pirámide 
+(x-5)
+X
+XX
+XXX
+XXXX
+XXXXX
+
+SIN GOOGLE
