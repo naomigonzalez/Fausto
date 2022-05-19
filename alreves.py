@@ -20,11 +20,15 @@ un programa que pida una frase al usuario y que se imprima al reves
 
 
 frase = input("Escriba una frase: ")
+# variable almacenar el número total que tiene de caracteres
 numCadena = len(frase) #10
 print(numCadena)
+# variable vacia para almacenar la frase al reves
 cadenaAlReves = ""
+
 for i in range(len(frase)): 
-  numCadena -= 1
+  # restarle la posición 
+  numCadena -= 1 #"hola" ['h', 'o', 'l', 'a'] -><- [0, 1, 2, 3]
   cadenaAlReves += frase[numCadena]
   print(cadenaAlReves)
 

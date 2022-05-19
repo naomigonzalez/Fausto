@@ -1,16 +1,12 @@
-1. hacer una función que reciba 3 números (que pida
-por consola) de esos tres números cuál es el 
-más grande 
-2. hacer una función que reciba 3 números (que pida
-por consola) de esos tres números cuál es el mínimo 
-3. pida una frase y diga cuántas vocales tiene 
-4. un programa que pida un caracter y despues pida
-un número y hacer una pirámide 
-(x-5)
-X
-XX
-XXX
-XXXX
-XXXXX
 
-SIN GOOGLE
+ 
+crear una FUNCION que reciba como argumento un arreglo de números 
+y que los ordene de menor a mayor. 
+(metodo de ordenamiento de burbuja)
+
+def funcion(miArreglo)
+  ....
+
+nombre = [545646]
+funcion(nombre)
+funcion([545646], 4, 4.5, True, None)
