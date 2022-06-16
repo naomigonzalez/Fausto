@@ -1,0 +1,5 @@
+crear un end point que guarde en un archivo de 
+texto el nombre y edad de una persona 
+y que se pueda editar el nombre del archivo. 
+atributo 
+
