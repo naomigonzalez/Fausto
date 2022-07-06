@@ -22,7 +22,7 @@ def get_inmuebles():
 
 @app.route('/crea_usuario', methods=['POST']) # crear nuevos atributos en una base de datos 
 def crea_usuario_metodo():
-
+    
     json:dict = request.get_json()
     # print(f"crea_usuario ==============> {json}")
 
@@ -38,16 +38,10 @@ def crea_usuario_metodo():
 
     f.close
 
-
     return {
       "codigo": 200,
       "respuesta": f"usuario {json.get('nombre')} ha sido creado en el archivo {json.get('archivo')}"
     }
-
-
-
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)

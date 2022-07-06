@@ -35,7 +35,7 @@ def bubbleSort(array):
         aux = array[j]
         array[j] = array[j+1]
         array[j+1] = aux 
-  return array 
+    return array 
 
 scores = [70, 90, 0, 80, 60, 85]
 print("Antes de ordenar: ")
