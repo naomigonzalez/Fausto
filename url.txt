@@ -1,0 +1,10 @@
+url
+
+
+http://127.0.0.1:5500/index.html
+
+https://jsonlint.com/
+
+https://programminghistorian.org/es/lecciones/trabajar-con-archivos-de-texto
+
+https://getbootstrap.com/docs/5.2/components/navs-tabs/

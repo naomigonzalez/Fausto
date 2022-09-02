@@ -1,0 +1,4 @@
+hacer un servicio para buscar alumnos 
+se pueden buscar po nombre, apellidos, semestre,
+grupo, etc. 
+

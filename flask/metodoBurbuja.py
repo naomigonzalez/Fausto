@@ -1,12 +1,15 @@
 import json
 from flask import Flask, request
 from flask import jsonify
+from flask_cors import CORS, cross_origin
 
 def create_app():
     
     """Función que inicializa la app y crea el servidor de Flask"""
     
     app = Flask(__name__)
+    cors = CORS(app)
+    app.config['CORS_HEADERS'] = 'Content-Type'
     return app
 
 
@@ -26,12 +29,13 @@ def metodo_burbuja():
     json:dict = request.get_json()
     print(json)
     unaLista = json.get('edades')
-    print("json.get('colores_favoritos')",json.get('colores_favoritos'))
-    print(json.get('colores_favoritos').get('rojo'))
-    print("--------------------")
-    colores = json.get('colores_favoritos')
-    print(colores.get('amarillo'))
+    # print("json.get('colores_favoritos')",json.get('colores_favoritos'))
+    # print(json.get('colores_favoritos').get('rojo'))
+    # print("--------------------")
+    # colores = json.get('colores_favoritos')
+    # print(colores.get('amarillo'))
     for numPasada in range(len(unaLista)-1,0,-1):
+        numPasada = int(numPasada)
         for i in range(numPasada):
             if unaLista[i] > unaLista[i+1]:
                 temp = unaLista[i]
